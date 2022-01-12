@@ -1,0 +1,47 @@
+## VSC Config files
+## ----------------
+.vscode
+
+## Compile RenPy files
+## -------------------
+**.rpa
+**.rpyb
+**.rpyc
+
+## DDLC Files
+## ----------
+characters
+game/*.chr
+game/firstrun
+game/saves
+game/cache
+game/images
+game/gui
+game/bgm
+game/sfx
+
+## RenPy residue
+## -------------
+tmp
+project.json
+log.txt
+traceback.txt
+errors.txt
+
+## Sinking Love exclusive
+## ----------------------
+txt2rpy.py
+rpc_log.txt
+
+## General Ignored Files
+## ---------------------
+screenshot****.png
+*.DS_Store
+game/rpatool.py
+game/**.bak
+**.psd
+
+## Cython
+## ------
+game/cython-packages/temp
+sinkinglove.conf
